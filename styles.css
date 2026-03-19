@@ -15,6 +15,7 @@
     --color-text-button: #e4e4e4;
     --color-card: #FFFFFF; /*Color tarjeta*/
     --font-main: 'Inter', sans-serif; /*Fuente general*/
+    --hover-links: #af5331;
     --box-shadow-card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --color-bg-footer: #ffcdba;
 
@@ -78,7 +79,7 @@ header{
 
 .section-title{
     text-align: center;
-    margin-bottom: 24px;
+    margin: 20px;
 }
 
 .product-list{
@@ -130,6 +131,7 @@ button:hover{
     background-color: var(--hover-button);
 }
 
+
 /*----ESTILOS FOOTER----*/
 
 footer{
@@ -153,6 +155,17 @@ footer{
 }
 
 .socials-links a{
+    display: flex;
+    padding: 8px;
     color: inherit;
     text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
+
+.socials-links a:hover{
+    background-color: var(--hover-links);
+}
+
+
