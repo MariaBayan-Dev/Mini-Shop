@@ -9,10 +9,12 @@
     --color-primary: #FF6B35; /*Header, botones y detalles importantes*/
     --color-bg: #FAFAFA; /*Color body fondo*/
     --color-text: #2D2D2D; /*Color texto general*/
+    --color-text-header: #ebebeb; /*Color texto del header*/
     --color-card: #FFFFFF; /*Color tarjeta*/
     --font-main: 'Inter', sans-serif; /*Fuente general*/
 
 }
+
 
 /*----RESET BÁSICO---*/
 
@@ -22,16 +24,38 @@
     box-sizing: border-box;
 }
 
+
 /*----ESTILOS BÁSICOS----*/
 
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-bg);
     color: var(--color-text);
     font-family: var(--font-main);
 }
 
+main{
+    flex: 1;
+}
+
+
 /*----ESTILOS HEADER----*/
 
-.header-container{
-    
+header{
+    background-color: var(--color-primary);
 }
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--color-text-header);
+    padding: 10px;
+}
+
+
+/*-----ESTILOS PRODUCT LIST----*/
