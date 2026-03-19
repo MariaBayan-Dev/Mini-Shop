@@ -10,8 +10,12 @@
     --color-bg: #FAFAFA; /*Color body fondo*/
     --color-text: #2D2D2D; /*Color texto general*/
     --color-text-header: #ebebeb; /*Color texto del header*/
+    --color-bg-button: #1A3A5C;
+    --hover-button: #325880;
+    --color-text-button: #e4e4e4;
     --color-card: #FFFFFF; /*Color tarjeta*/
     --font-main: 'Inter', sans-serif; /*Fuente general*/
+    --box-shadow-card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
@@ -22,6 +26,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
 }
 
 
@@ -59,3 +68,61 @@ header{
 
 
 /*-----ESTILOS PRODUCT LIST----*/
+
+.section-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-card);
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-card);
+    padding: 15px;
+}
+
+h3, p, span{
+    margin-bottom: 12px;
+}
+
+span{
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    color: var(--color-text-header);
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+button{
+    width: 100%;
+    border: none;
+    margin-top: auto;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-text-button);
+    background-color: var(--color-bg-button);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--hover-button);
+}
