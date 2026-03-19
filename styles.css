@@ -1,0 +1,37 @@
+/*-----FONT-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*----COLORES----*/
+
+:root{
+    /*COLORES BODY*/
+    --color-primary: #FF6B35; /*Header, botones y detalles importantes*/
+    --color-bg: #FAFAFA; /*Color body fondo*/
+    --color-text: #2D2D2D; /*Color texto general*/
+    --color-card: #FFFFFF; /*Color tarjeta*/
+    --font-main: 'Inter', sans-serif; /*Fuente general*/
+
+}
+
+/*----RESET BÁSICO---*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----ESTILOS BÁSICOS----*/
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-main);
+}
+
+/*----ESTILOS HEADER----*/
+
+.header-container{
+    
+}
