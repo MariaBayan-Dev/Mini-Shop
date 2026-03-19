@@ -16,6 +16,7 @@
     --color-card: #FFFFFF; /*Color tarjeta*/
     --font-main: 'Inter', sans-serif; /*Fuente general*/
     --box-shadow-card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --color-bg-footer: #ffcdba;
 
 }
 
@@ -96,7 +97,9 @@ header{
     padding: 15px;
 }
 
-h3, p, span{
+.product-card h3, 
+.product-card p, 
+.product-card span{
     margin-bottom: 12px;
 }
 
@@ -125,4 +128,31 @@ button{
 
 button:hover{
     background-color: var(--hover-button);
+}
+
+/*----ESTILOS FOOTER----*/
+
+footer{
+    background-color: var(--color-bg-footer);
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.socials-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socials-links a{
+    color: inherit;
+    text-decoration: none;
 }
