@@ -27,8 +27,9 @@ Lorem impsum
 - Lorem impsum.
 
 ## 🔗 Live Demo
-👉 [Spotify Clone](https://mariabayan-dev.github.io/Spotify-Clon/)
+👉 [Mini Shop](https://mariabayan-dev.github.io/Mini-Shop/)
 
 ## 📸 Preview
 
-<img width="1887" height="912" alt="spotify-clon-preview" src="https://github.com/user-attachments/assets/739d435f-d03d-4087-91e0-985a5e0e47f1" />
+<img width="1917" height="911" alt="mini-shop-preview" src="https://github.com/user-attachments/assets/9bae4e3c-1ffe-4aae-afb4-5eedac1a2509" />
+
