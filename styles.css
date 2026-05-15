@@ -32,7 +32,6 @@
 
 img{
     max-width: 100%;
-    object-fit: cover;
 }
 
 
@@ -104,6 +103,12 @@ header{
 .product-card p, 
 .product-card span{
     margin-bottom: 12px;
+}
+
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 span{
