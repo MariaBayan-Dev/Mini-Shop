@@ -1,12 +1,10 @@
 # 🛒 Mini Shop 
 
-Lorem impsum
+Simple design project for a general merchandise store showing product cards.
 
 ## 🚀 Features
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
+- Minimalist and simple design.
+- Product cards with price and brief description.
 
 ## 🛠️ Technologies
 
@@ -14,17 +12,24 @@ Lorem impsum
 ![CSS](https://img.shields.io/badge/CSS-8A2BE2?logo=CSS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=grey)
 
-## 📚 What I learned
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
+## 📚 What I Learned
 
-## 💡 Future improvements
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
-- Lorem impsum.
+- How to use filter() to display only available products, 
+  returning a new array that meets a specific condition.
+- How to structure data as an array of objects and iterate 
+  over it with forEach() to dynamically generate HTML cards 
+  using template literals and insertAdjacentHTML().
+
+## 🔮 Future Improvements
+
+- Add a functional shopping cart that tracks 
+  selected products and calculates the total price.
+- Add category filtering to show only products 
+  from a specific category.
+- Add a search bar using filter() and includes() 
+  to find products by name.
+- Add price sorting (lowest to highest / highest 
+  to lowest) using sort().
 
 ## 🔗 Live Demo
 👉 [Mini Shop](https://mariabayan-dev.github.io/Mini-Shop/)
